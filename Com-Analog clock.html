@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Analog Clock</title>
+      <style>
+          
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+          body{
+              display: flex;
+              align-items: center;
+        justify-content: center;
+           height: 100vh; 
+              background-color: black;
+          }
+          .clock{
+              width: 500px;
+              height: 500px;
+              background-color: lightgray;
+              position: relative;
+              display: flex;
+              border-radius: 50%;
+              justify-content: center;
+             
+          }
+          .number{
+              transform: rotate(calc(30deg * var(--n)));
+              position: absolute;
+              text-align: center;
+              inset:20px;
+              font-size: 40px;
+              font-weight: 600;
+          }
+          
+      </style>
+    </head>
+    <body>
+        
+        <div class="container">
+        <div class="clock">
+            <div class="number"stlye="--n:1">1</div>
+             <div class="number"stlye="--n:2">2</div> 
+             <div class="number"stlye="--n:3">3</div>
+              <div class="number"stlye="--n:4">4</div>
+              <div class="number"stlye="--n:5">5</div>
+             
+              <div class="number"stlye="--n:6">6</div>
+              <div class="number"stlye="--n:7">7</div>
+              <div class="number"stlye="--n:8">8</div>
+              <div class="number"stlye="--n:9">9</div>
+              <div class="number"stlye="--n:10">10</div>
+              <div class="number"stlye="--n:11">11</div>
+              <div class="number"stlye="--n:12">12</div>
+            
+            </div>
+        </div>
+    </body>
+    <script>
+    </script>
+</html>
